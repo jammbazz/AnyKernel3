@@ -4,7 +4,21 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string="Kernel made by TakuruKagami from t.me/a01coredev"
+ui_print " "
+ui_print "  _    _                      _ _ "
+ui_print " | |  | |                    (_|_) "
+ui_print " | |__| | __ ___      ____ _  _ _ "
+ui_print " |  __  |/ _' \ \ /\ / / _' || | | "
+ui_print " | |  | | (_| |\ V  V / (_| || | | "
+ui_print " |_|  |_|\__,_| \_/\_/ \__,_||_|_| "
+ui_print " "
+ui_print "---------------------------------------"
+ui_print " Made by: jamxbaz"
+ui_print " Project: t.me/a01coredev"
+ui_print "---------------------------------------"
+ui_print " "
+
+kernel.string="Hawaii Kernel by jamxbaz"
 do.devicecheck=0
 do.modules=0
 do.systemless=1
