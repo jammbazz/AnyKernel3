@@ -4,20 +4,6 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-ui_print " "
-ui_print "  _    _                      _ _ "
-ui_print " | |  | |                    (_|_) "
-ui_print " | |__| | __ ___      ____ _  _ _ "
-ui_print " |  __  |/ _' \ \ /\ / / _' || | | "
-ui_print " | |  | | (_| |\ V  V / (_| || | | "
-ui_print " |_|  |_|\__,_| \_/\_/ \__,_||_|_| "
-ui_print " "
-ui_print "---------------------------------------"
-ui_print " Made by: jamxbaz"
-ui_print " Project: t.me/a01coredev"
-ui_print "---------------------------------------"
-ui_print " "
-
 kernel.string="Hawaii Kernel by jamxbaz"
 do.devicecheck=0
 do.modules=0
@@ -49,6 +35,21 @@ PATCH_VBMETA_FLAG=auto;
 
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
+
+ui_print " "
+ui_print "  _    _                      _ _ "
+ui_print " | |  | |                    (_|_) "
+ui_print " | |__| | __ ___      ____ _  _ _ "
+ui_print " |  __  |/ _' \ \ /\ / / _' || | | "
+ui_print " | |  | | (_| |\ V  V / (_| || | | "
+ui_print " |_|  |_|\__,_| \_/\_/ \__,_||_|_| "
+ui_print " "
+ui_print "---------------------------------------"
+ui_print " Made by: jamxbaz"
+ui_print " Project: t.me/a01coredev"
+ui_print "---------------------------------------"
+ui_print " "
+
 
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
